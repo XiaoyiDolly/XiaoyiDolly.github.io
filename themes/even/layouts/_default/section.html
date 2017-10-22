@@ -1,7 +1,7 @@
 {{ define "title" }}{{ .Site.Data.even.default.archive }} - {{ .Site.Title }}{{ end }}
 
 {{ define "content"}}
-{{- $lang := .Site.Data.even.default }}
+{{- $lang := .Site.Data.even.en }}
 {{- $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate") }}
 <section id="archive" class="archive">
   {{- if not $paginator.HasPrev }}

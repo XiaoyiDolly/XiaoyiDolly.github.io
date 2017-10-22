@@ -1,7 +1,7 @@
 {{ define "title" }}{{ index .Site.Data.even.default .Data.Plural }} - {{ .Site.Title }}{{ end }}
 
 {{ define "content" }}
-  {{ $lang := .Site.Data.even.default -}}
+  {{ $lang := .Site.Data.even.en -}}
   {{ $name := .Data.Plural -}}
   {{ $terms := .Data.Terms.ByCount -}}
   {{ $length := len $terms -}}
