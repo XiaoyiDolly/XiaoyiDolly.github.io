@@ -1,123 +1,254 @@
-baseURL = "http://localhost:1313/"
-languageCode = "en"
-defaultContentLanguage = "en"
-title = "Xiaoyi blog"
-enableRobotsTXT = true
+baseurl = "https://XiaoyiDolly.github.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+title = "Xiaoyi Duan"
+copyright = "&copy; 2017 Xiaoyi Duan"
+theme = "academic"
 enableEmoji = true
-theme = "even"
+footnotereturnlinkcontents = "<sup>^</sup>"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+paginate = 10
 
-hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 3                                              # （可选）首页显示的文章条目数量，默认为10
-disqusShortname = ""      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
-copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
 
-[author]                  # require                       # 必需
-  name = "Dolly"
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
 
-[sitemap]                 # require                       # 必需
-  changefreq = "weekly"
-  priority = 0.5
-  filename = "sitemap.xml"
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
-[[menu.main]]             # config your menu              # 配置目录
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  url = "/"
-[[menu.main]]
-  name = "Archives"
-  weight = 20
-  identifier = "archives"
-  url = "/post/"
-[[menu.main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "Categories"
-  weight = 40
-  identifier = "categories"
-  url = "/categories/"
+[outputs]
+  home = [ "HTML", "CSS" ]
+
+# Configure BlackFriday Markdown rendering.
+#   See: https://gohugo.io/readfiles/bfconfig/
+[blackfriday]
+  hrefTargetBlank = true  # `true` opens external links in a new tab.
+  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+  smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
 
 [params]
-  debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
+  # Color theme.
+  #   Choose from `default`, `ocean`, `forest`, or `coffee`.
+  color_theme = "ocean"
 
-  since = "2017"            # Site creation time          # 站点建立时间
+  # Font style.
+  #   Choose from `default`, `classic`, or `playfair`.
+  font = "default"
 
-  # site info (option)                                    # 站点信息（可选）
-  logoTitle = "Blog"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Hugo", "theme","even"]
-  description = "Hugo theme even example site."
+  # Your details.
+  name = "Xiaoyi Duan"
+  role = "PhD student"
 
-  # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目
-  archive-paginate = 3
+  # Organizations/Affiliations.
+  #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
+  organizations = [ { name = "Carnegie Mellon University", url = "" } ]
 
-  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006-01-02"
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "xiaoyid@andrew.cmu.edu"
+  address = "California, USA"
+#  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+#  phone = "888 888 88 88"
+#  skype = "echo123"
+#  telegram = ""
 
-  # show word count and read time ?                       # 是否显示字数统计与阅读时间
-  moreMeta = false
+  # Enable Keybase in Contact section by entering your keybase.io username.
+  keybase = ""
 
-  # 一些全局开关，你可以在每一篇内容的 front matter 中单独关闭某些选项
-  # Some global options, you can close something in front matter.
-  toc = true                                                                            # 是否开启目录
-  fancybox = true           # see https://github.com/fancyapps/fancybox                 # 是否启用fancybox（图片可点击）
-  bootcdn = false           # In china. @Deprecated: use [params.publicCDN]             # 是否使用bootcdn(@Deprecated: 请使用[params.publicCDN])
-  mathjax = true            # see https://www.mathjax.org/                              # 是否使用mathjax（数学公式）
-  linkToMarkDown = false    # if you config contentCopyright and hugo output .md files. # 是否在链接到markdown原始文件（如果你配置了下面的许可协议并允许hugo生成markdown文件）
+  # Diplay a logo in navigation bar rather than title (optional).
+  #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
+  logo = ""
 
-  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+  # Enable Google Maps by entering your API key, latitude, and longitude.
+  #   Get your API key: https://developers.google.com/maps/documentation/javascript/get-api-key
+  #   Get your coords: Right-click place on Google Maps. Select 'What's here?'. At the bottom is a card with the coords.
+  #   Disable Google Maps by clearing all three options to "".
+  google_maps_api_key = "AIzaSyCWavyw1CQSTYM4NeH3QG92trkz1va4VQk"
+  latitude = "37.410413"
+  longitude = "-122.059785"
 
-  changyanAppid = ""        # Changyan app id             # 畅言
-  changyanAppkey = ""       # Changyan app key
-  baidu_push = false        # baidu push                  # 百度
-  baidu_analytics = ""      # Baidu Analytics
-  baidu_verification = ""   # Baidu Verification
-  google_verification = ""  # Google_Verification         # 谷歌
+  # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Jan 2, 2006"
+  #   Examples: "3:04 pm" or "15:04"
+  time_format = "3:04 PM"
 
-  [params.publicCDN]        # load these files from public cdn                          # 启用公共CDN，需自行定义
-    enable = false
-    jquery = '<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>'
-    slideout = '<script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>'
-    fancyboxJs = '<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>'
-    fancyboxCss = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">'
+  # Show estimated reading time for posts?
+  reading_time = true
 
-  [params.reward]                                         # 文章打赏
-    enable = false
-    wechat = "/path/to/your/wechat-qr-code.png"           # 微信二维码
-    alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
+  # Display comment count? Requires commenting to be enabled.
+  comment_count = true
 
-  [params.social]                                         # 社交链接
-#   a-email = "mailto:@email.com"
-#   b-stack-overflow = "http://localhost:1313"
-#   c-twitter = "http://localhost:1313"
-    d-facebook = "http://localhost:1313"
-#   e-linkedin = "http://localhost:1313"
-#   f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-#   h-weibo = "http://localhost:1313"
-#   i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-#   k-pocket = "http://localhost:1313"
-#   l-tumblr = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
+  # Display section pager for posts?
+  section_pager = false
 
-# 将下面这段配置取消注释可以使 hugo 生成 .md 文件
-# Uncomment these options to make hugo output .md files.
-#[mediaTypes]
-#  [mediaTypes."text/plain"]
-#    suffix = "md"
-#
-#[outputFormats.MarkDown]
-#  mediaType = "text/plain"
-#  isPlainText = true
-#  isHTML = false
-#
-#[outputs]
-#  home = ["HTML", "RSS"]
-#  page = ["HTML", "MarkDown"]
-#  section = ["HTML", "RSS"]
-#  taxonomy = ["HTML", "RSS"]
-#  taxonomyTerm = ["HTML"]
+  # Enable global LaTeX math rendering?
+  #   If false, you can enable it locally on a per page basis.
+  math = false
+
+  # Highlight.js options
+  #   highlight
+  #     Enable global source code highlighting?  If false, you can
+  #     override it for a particular page in that page's preamble.
+  #
+  #     Example: highlight = true
+  #
+  #   highlight_languages
+  #     Add support for highlighting additional languages. Support for
+  #     languages mentioned here will be included in all pages. You
+  #     can also set this variable for a particular page in that
+  #     page's preamble.
+  #
+  #     Example: highlight_languages = ["go", "lisp", "ocaml"]
+  #
+  #   highlight_style
+  #     Choose a different CSS style for highlighting source
+  #     code. Setting this option in a page's preamble has no
+  #     effect.
+  #
+  #     Example: highlight_style = "github-gist"
+  #
+  #   For the list of supported languages and styles, see:
+  #   https://cdnjs.com/libraries/highlight.js/
+  #
+  #   For more info on the highlighting options, see:
+  #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
+  highlight = true
+  highlight_languages = []
+  # highlight_style = "github"
+
+  # Enable native social sharing buttons?
+  sharing = true
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  custom_css = []
+  custom_js  = []
+
+  # Publication types.
+  #   Used to categorize publications.
+  #   The index of the publication type in the list is used as its unique numerical identifier.
+  #   The numeric ID is used in a publication's frontmatter to categorize it.
+  #   The language can be edited below.
+  #   For multi-lingual sites, copy this block to each language section at the end of this file.
+  publication_types = [
+    'Uncategorized',  # 0
+    'Conference proceedings',  # 1
+    'Journal',  # 2
+    'Work in progress',  # 3
+    'Technical report',  # 4
+    'Book',  # 5
+    'Book chapter'  # 6
+  ]
+
+  # Configuration of talk pages.
+  [params.talks]
+    # Show talk time?
+    time = true
+
+  # Configuration of publication pages.
+  [params.publications]
+    # Date format (refer to Go's date format: http://fuckinggodateformat.com )
+    #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+    date_format = "January, 2006"
+
+  # Configuration of project pages.
+  [params.projects]
+    # List publications and talks related to the project?
+    list_children = true
+
+    # Publication list format.
+    #   0 = Simple
+    #   1 = Detailed
+    #   2 = APA
+    #   3 = MLA
+    publication_format = 3
+
+  # Social/Academic Networking
+  #
+  # Icon pack "fa" includes the following social network icons:
+  #
+  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
+  #   youtube, instagram, soundcloud
+  #
+  #   For email icon, use "fa" icon pack, "envelope" icon, and
+  #   "mailto:your@email.com" as the link.
+  #
+  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #
+  # Icon pack "ai" includes the following academic network icons:
+  #
+  #   google-scholar, arxiv, orcid, researchgate, mendeley
+  #
+  #   Full list: https://jpswalsh.github.io/academicons/
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:xiaoyid@andrew.cmu.edu"
+
+#  [[params.social]]
+#    icon = "twitter"
+#    icon_pack = "fa"
+#    link = "//twitter.com/GeorgeCushen"
+
+  [[params.social]]
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.com/citations?user=x8NweAoAAAAJ"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/XiaoyiDolly"
+
+
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[menu.main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+
+[[menu.main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 2
+
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 3
+
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 4
+
+[[menu.main]]
+ name = "Life"
+ url = "#life"
+ weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
+
+# Taxonomies.
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  publication_type = "publication_types"
+
+# Languages
+#   Create a [languages.X] block for each language you want, where X is the language ID.
+
+# Configure the English version of the website.
+[Languages.en]
+  languageCode = "en-us"
