@@ -1,67 +1,127 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>http://localhost:1313/post/test/</loc>
-    <lastmod>2017-10-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/publication/17icws_workflow-provenance-model/</loc>
+      <lastmod>2017-06-25T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/post/</loc>
+      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://localhost:1313/categories/english/</loc>
-    <lastmod>2017-10-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/tags/academic/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://localhost:1313/tags/english/</loc>
-    <lastmod>2017-10-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/publication/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2017-10-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/publication/16cic_collaborative-workflow/</loc>
+      <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://localhost:1313/tags/preview/</loc>
-    <lastmod>2017-10-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/project/scientific-workflow/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>http://localhost:1313/tags/tag-2/</loc>
-    <lastmod>2017-10-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/publication_types/1/</loc>
+      <lastmod>2017-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2017-10-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
   
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2017-10-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/project/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/publication_types/</loc>
+      <lastmod>2017-06-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/tags/scientific-workflow/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/tags/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://XiaoyiDolly.github.io/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
 </urlset>
