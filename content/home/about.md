@@ -10,9 +10,9 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Service Computing",
+    "Service Oriented Computing",
     "Scientific Workflow",
-    "Knowledge Graph"
+    "Knowledge Base"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -33,6 +33,8 @@ weight = 5
  
 +++
 
-# Biography
+# About me
 
-To be edit
+I am a PhD student in Electrical and Computer Engineering, Carnegie Mellon University at Silicon Valley campus, supervised by [Prof. Jia Zhang](https://www.cmu.edu/silicon-valley/faculty-staff/zhang-jia.html).
+
+Service Oriented Computing is the focus of my research, with interests of Scientific Workflow Collaboration, Workflow Provenance and Text Mining. Currently, I am doing research about Knowledge Base and Deep Learning.
