@@ -33,8 +33,7 @@ filter_default = 0
   tag = ".scientific-workflow"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
-
+  name = "Knowledge Graph"
+  tag = ".knowledge-graph"
 +++
 
