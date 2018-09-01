@@ -17,7 +17,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in ECE"
+  course = "PhD student in ECE"
   institution = "Carneigie Mellon Silicon Valley, CA, USA"
   yy = "2016-now"
 
@@ -35,6 +35,6 @@ weight = 5
 
 # About me
 
-I am a research assistant for the lab of Service Computing, in the department of Electrical and Computer Engineering, Carnegie Mellon University at Silicon Valley campus, supervised by [Prof. Jia Zhang](https://www.cmu.edu/silicon-valley/faculty-staff/zhang-jia.html).
+I am currently a PhD student in the department of Electrical and Computer Engineering, Carnegie Mellon University at silicon valley campus. My research area is service computing, with focus on scientific workflow and knowledge graph. My advisor is [Prof. Jia Zhang](https://www.cmu.edu/silicon-valley/faculty-staff/zhang-jia.html).
 
 Link to my [resume](files/cmu-resume.pdf).
