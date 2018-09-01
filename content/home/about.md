@@ -37,4 +37,4 @@ weight = 5
 
 I am a research assistant for the lab of Service Computing, in the department of Electrical and Computer Engineering, Carnegie Mellon University at Silicon Valley campus, supervised by [Prof. Jia Zhang](https://www.cmu.edu/silicon-valley/faculty-staff/zhang-jia.html).
 
-Service Oriented Computing is the focus of my research, with interests of Scientific Workflow Collaboration, Workflow Provenance and Text Mining. Currently, I am doing research about Knowledge Base and Deep Learning.
+Link to my [resume](files/cmu-resume.pdf).
