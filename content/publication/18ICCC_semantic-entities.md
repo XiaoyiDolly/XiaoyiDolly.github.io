@@ -3,7 +3,7 @@ title = "A Neural Network-Powered Cognitive Method of Identifying Semantic Entit
 date = "2018-06-25"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Qihao Bao", "Jia Zhang", "Xiaoyi Duan", "Rahul Ramachandran", "Tsengdar J. Lee", "Yankai Zhang", "Yuhao Xu"]
+authors = ["Xiaoyi Duan", "Jia Zhang", Rahul Ramachandran", "Patrick Gatlin", "Manil Maskey", "Jeffrey J. Miller", "Kaylin Bugbee", "Tsengdar J. Lee"]
 
 # Publication type.
 # Legend:
