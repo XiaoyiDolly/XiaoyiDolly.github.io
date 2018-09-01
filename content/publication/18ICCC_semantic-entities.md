@@ -1,5 +1,5 @@
 +++
-title = "A Neural Network-Powered Cognitive Method of Identifying Semantic Entities in Earth Science Papers."
+title = "A Neural Network-Powered Cognitive Method of Identifying Semantic Entities in Earth Science Papers"
 date = "2018-06-25"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -33,7 +33,7 @@ selected = false
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["service-computing"]
+projects = ["skg"]
 
 # Links (optional).
 url_pdf = "files/ICCC2018-Xiaoyi.pdf"

@@ -36,7 +36,7 @@ selected = false
 projects = ["scientific-workflow"]
 
 # Links (optional).
-url_pdf = "http://ieeexplore.ieee.org/abstract/document/7809710/"
+url_pdf = "files/CIC2016.pdf"
 
 
 # Custom links (optional).
@@ -52,8 +52,8 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "headers/bubbles-wide.jpg"
-caption = "My caption :smile:"
+image = ""
+caption = ""
 
 +++
 

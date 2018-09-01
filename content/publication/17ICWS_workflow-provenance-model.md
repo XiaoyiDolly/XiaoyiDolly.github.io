@@ -36,8 +36,8 @@ selected = false
 projects = ["scientific-workflow"]
 
 # Links (optional).
-url_pdf = "http://ieeexplore.ieee.org/abstract/document/8029750/"
-url_slides = "files/ICWS2017-Xiaoyi.pdf"
+url_pdf = "files/ICWS2017_Xiaoyi.pdf"
+url_slides = "files/ICWS2017_slides.pdf"
 # url_preprint = ""
 # url_code = ""
 # url_dataset = ""
