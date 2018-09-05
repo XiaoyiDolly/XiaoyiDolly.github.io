@@ -28,7 +28,7 @@ abstract_short = ""
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = false
+selected = true
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -36,9 +36,9 @@ selected = false
 projects = ["skg"]
 
 # Links (optional).
-url_pdf = "files/ICCC2018-Xiaoyi.pdf"
+#url_pdf = "files/ICCC2018-Xiaoyi.pdf"
+url_preprint = "files/ICCC2018-Xiaoyi.pdf"
 url_slides = "files/ICCC2018_slides.pdf"
-# url_preprint = ""
 # url_code = ""
 # url_dataset = ""
 # url_project = ""
@@ -57,7 +57,7 @@ highlight = true
 [header]
 image = ""
 caption = ""
-
+# More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
 +++
 
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+
