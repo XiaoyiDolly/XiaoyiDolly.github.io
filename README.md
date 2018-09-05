@@ -2,7 +2,7 @@
 
 Deployment code is on master branch. Source code is on hugo branch.
 
-## Framework: [Hugo](https://gohugo.io/)
+## Framework: [hugo](https://gohugo.io/)
 Language to use:
 - Frontend: go
 - Blog: markdown
