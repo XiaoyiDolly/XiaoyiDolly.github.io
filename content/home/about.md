@@ -34,6 +34,6 @@ weight = 5
 
 # About me
 
-I am currently a PhD student in the department of Electrical and Computer Engineering, Carnegie Mellon University at silicon valley campus. My research area is service computing, with focus on scientific workflow and knowledge graph. My advisor is [Prof. Jia Zhang](https://www.cmu.edu/silicon-valley/faculty-staff/zhang-jia.html).
+I am currently a graduate student in the department of Electrical and Computer Engineering, Carnegie Mellon University at silicon valley campus. My research area was service computing, with focus on scientific workflow and knowledge graph.
 
 Link to my [resume](files/cmu-resume.pdf).
