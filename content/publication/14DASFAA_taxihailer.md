@@ -21,7 +21,7 @@ publication = "In *International Conference on Database Systems for Advanced App
 publication_short = "In *DASFAA*"
 
 # Abstract and optional shortened version.
-abstract_short = "This demonstration presents TaxiHailer, a situation-specific pick-up points recommendation system for passengers. For example, a traveler who stays on East China Normal University campus in Shanghai wants to visit some places elsewhere, like the Bund, in the next morning. TaxiHailer will provide him/her with a list of pick-up points within a specified distance to his position ranked by waiting time plus walking penalty. The situation is determined by the time interval, weekday/weekend/holiday, cluster of road segment, weather and so on according to the query context. The waiting time for each point is predicted using the specific model corresponding to the situation."
+abstract = "This demonstration presents TaxiHailer, a situation-specific pick-up points recommendation system for passengers. For example, a traveler who stays on East China Normal University campus in Shanghai wants to visit some places elsewhere, like the Bund, in the next morning. TaxiHailer will provide him/her with a list of pick-up points within a specified distance to his position ranked by waiting time plus walking penalty. The situation is determined by the time interval, weekday/weekend/holiday, cluster of road segment, weather and so on according to the query context. The waiting time for each point is predicted using the specific model corresponding to the situation."
 
 # Featured image thumbnail (optional)
 image_preview = ""
